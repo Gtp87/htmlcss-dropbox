@@ -127,8 +127,20 @@ span .checkbox:hover {
     border: 3px solid blue;
     cursor: pointer;
 }
+
 [class^=col-plan] {
     border: 1px solid gray;
     height: 600px;
-    width: 25%;
+    width: calc(100% / 3 - 50px);
+}
+
+
+.col-plan-cn {
+    margin: 0 50px;   
+}
+
+.text-col-plan {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-align: center;
 }
