@@ -130,8 +130,7 @@ span .checkbox:hover {
 
 [class^=col-plan] {
     border: 1px solid gray;
-    /* height: 600px; */
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 50px);
 }
 
 
