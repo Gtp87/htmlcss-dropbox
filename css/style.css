@@ -151,7 +151,7 @@ span .checkbox:hover {
 }
 
 .plan-description {
-    padding: 2em;
+    padding: 4em 2em;
     line-height: 2em;
 }
 
@@ -169,6 +169,11 @@ span .checkbox:hover {
     padding-left: 2em;
 }
 
+.oppure {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.5em;
+}
+
 .fa-check {
     color: blue;
 }
@@ -176,4 +181,8 @@ span .checkbox:hover {
 .color-gray {
     color: gray;
     font-size: 0.8em;
+}
+
+main .plan-btn a {
+    text-decoration: none;
 }
