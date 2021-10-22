@@ -110,6 +110,10 @@ header {
     padding-top: 10em;
 }
 
+.title-plan {
+    margin-bottom: 5em;
+}
+
 span .checkbox {
     display: inline-block;
     width: 1em;
@@ -122,4 +126,9 @@ span .checkbox {
 span .checkbox:hover {
     border: 3px solid blue;
     cursor: pointer;
+}
+[class^=col-plan] {
+    border: 1px solid gray;
+    height: 600px;
+    width: 25%;
 }
