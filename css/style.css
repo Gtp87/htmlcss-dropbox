@@ -64,7 +64,6 @@ a.btn {
 header {
     background-color: #B4D0E7;
     height: 500px;
-
 }
 
 .container-jumbo {
@@ -74,4 +73,16 @@ header {
 
 .jumbo-title {
     padding-top: 8em;
+}
+
+.img {
+    width: 100%;
+}
+
+.jumbo-col-sx {
+    width: 35%;
+}
+
+.jumbo-col-dx {
+    width: 65%;
 }
