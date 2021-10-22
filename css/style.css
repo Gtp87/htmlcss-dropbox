@@ -44,3 +44,10 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+a.btn {
+    background-color: #0061FF;
+    padding: 1px 14px;
+    line-height: 2em;
+    color: white;
+}
