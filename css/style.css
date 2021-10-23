@@ -26,6 +26,10 @@ html {
     width: 65%;
 }
 
+.width-50 {
+    width: 50%;
+}
+
 .width-35 {
     width: 35%;
 }
@@ -221,5 +225,23 @@ main .plan-btn a {
 
 .cont-entreprise-col-sx {
     padding-left: 2em;
+    line-height: 2em;
 }
 
+/* partner */
+.container-partner {
+    padding-top: 10em;
+}
+
+.partner-col-dx {
+    padding-left: 2em;
+    padding-top: 2em;
+    line-height: 2em;
+}
+
+.btn.btn-partner {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
