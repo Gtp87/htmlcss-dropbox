@@ -11,7 +11,9 @@ html {
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-
+.width-90 {
+    width: 90%;
+}
 .width-80 {
     width: 80%;
     margin: 0 auto;
@@ -40,6 +42,9 @@ html {
 
 .width-30 {
     width: 30%;
+}
+.width-10 {
+    width: 10%;
 }
 
 .float-l {
@@ -273,4 +278,38 @@ main .plan-btn a {
 .client {
     margin-top: 8em;
     margin-bottom: 2em;
+}
+
+.square {
+    width: 50%;
+    height: 200px;
+}
+
+.p-relative {
+    position:relative;
+}
+
+.transform {
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.designit {
+    background-color: #A2D39B;
+}
+
+.asu {
+    background-color: #61082B;
+}
+
+.uf {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
 }
