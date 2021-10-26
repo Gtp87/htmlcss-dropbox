@@ -286,7 +286,7 @@ span .checkbox:hover {
 [class^=col-plan] {
     border: 1px solid lightgray;
     width: 30%;
-    height: 1200px;
+    max-height: 1200px;
 }
 
 
