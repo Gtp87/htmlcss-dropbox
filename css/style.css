@@ -405,7 +405,6 @@ span .checkbox:hover {
 
 .quote::before {
     content: '';
-    content: '';
     border-bottom: 1px solid gray;
     width: 8%;
     padding-top: 3em;
