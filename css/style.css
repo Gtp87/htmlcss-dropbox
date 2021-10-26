@@ -403,6 +403,15 @@ span .checkbox:hover {
     line-height: 2em;
 }
 
+.quote::before {
+    content: '';
+    content: '';
+    border-bottom: 1px solid gray;
+    width: 8%;
+    padding-top: 3em;
+
+}
+
 .p-relative {
     position:relative;
 }
@@ -511,6 +520,12 @@ span .checkbox:hover {
     list-style-type: none;
 }
 
+.container-col-footer::after {
+    content: '';
+    border-bottom: 1px solid gray;
+    width: 8%;
+    padding-top: 3em;
+}
 .container-footer a {
     color: white;
     text-decoration: none;
