@@ -209,7 +209,7 @@ main .btn:hover,
     margin: 0 1em;
 }
 
-.navbar ul li:not(:last-child):hover {
+.navbar ul li:not(.col-dx li:last-child):hover {
     border-bottom: 1px solid black;
 }
 
