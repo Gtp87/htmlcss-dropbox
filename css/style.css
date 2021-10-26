@@ -60,6 +60,10 @@ html {
 
 /* font size */
 
+.font-size-07 {
+    font-size: 0.7em;
+}
+
 .font-size-09 {
     font-size: 0.9em;
     font-weight: 500;
@@ -96,6 +100,7 @@ html {
 
 .btn {
     display: inline-block;
+    text-decoration: none;
 }
 
 
@@ -181,9 +186,6 @@ header {
     color: black;
 }
 
-.jumbo-col-container a {
-    text-decoration: none;
-}
 
 /* main */
 .container-main {
@@ -257,9 +259,6 @@ span .checkbox:hover {
     color: gray;
 }
 
-main .plan-btn a {
-    text-decoration: none;
-}
 
 .container-enterprise {
     width: 100%;
@@ -298,8 +297,8 @@ main .plan-btn a {
     background-color: white;
     border: 1px solid black;
     color: black;
-    text-decoration: none;
 }
+
 .container-operations {
     margin-top: 3em;
 }
@@ -386,6 +385,10 @@ main .plan-btn a {
     padding-bottom: 3em;
 }
 
+.pd-btm-12 {
+    padding-bottom: 12em;
+}
+
 .pd-top-4 {
     padding-top: 4em;
 }
@@ -417,12 +420,17 @@ main .plan-btn a {
     margin-top: 3em;
 }
 
-.mrg-l-18 {
-    margin-left: 18em;
+.mrg-l-26 {
+    margin-left: 26em;
 }
 
 .client-col-cn {
     background-color: #F5F5F5;
+}
+
+.color-cyan a {
+    background-color: white;
+    color: black;
 }
 
 .container-cyan {
@@ -439,14 +447,18 @@ main .plan-btn a {
     border-bottom: 1px solid lightgray;
 }
 
-.line-height-3 {
-    line-height: 3em;
+.line-height-4 {
+    line-height: 4em;
 }
 
 .color-white {
     color: white;
 }
 
+.container-faqs .float-l {
+    font-weight: bold;
+    padding: 2em 0;
+}
 
 .container-footer ul li {
     list-style-type: none;
@@ -455,9 +467,19 @@ main .plan-btn a {
 .container-footer a {
     color: white;
     text-decoration: none;
+    line-height: 2em;
+    font-size: 0.6em;
 }
 
 .col-footer {
     width: calc(100% / 5);
 }
 
+.container-footer h4 {
+    margin-bottom: 2em;
+}
+
+
+.footer-language {
+    font-size: 0.65em;
+}
